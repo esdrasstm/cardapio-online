@@ -675,12 +675,24 @@ video {
   top: 0px;
 }
 
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
+.bottom-10 {
+  bottom: 2.5rem;
+}
+
 .isolate {
   isolation: isolate;
 }
 
 .isolation-auto {
   isolation: auto;
+}
+
+.z-\[99\] {
+  z-index: 99;
 }
 
 .float-start {
@@ -772,6 +784,14 @@ video {
 
 .mt-9 {
   margin-top: 2.25rem;
+}
+
+.mb-px {
+  margin-bottom: 1px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
 }
 
 .box-border {

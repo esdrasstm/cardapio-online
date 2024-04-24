@@ -24,6 +24,7 @@ const addressWarn = document.getElementById("address-warn")
 let cart = [];
 
 //abrir o modal do carrinho
+
 cartBtn.addEventListener("click", function () {
     updateCartModal();
     cartModal.style.display = "flex"
@@ -44,6 +45,7 @@ closeModalBtn.addEventListener("click", function (event) {
 })
 
 menu.addEventListener("click", function (event) {
+
     //console.log(event.target)
 
     let parentButton = event.target.closest(".add-to-cart-btn")
